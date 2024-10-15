@@ -1,46 +1,66 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
 }
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
-    height:100vh;
-    width:100%;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
     background-color: #051a28;
-    color:white;
-    gap:100px
+    color: white;
+    gap: 100px;
 }
-h1{
+h1 {
     font-size: 75px;
 }
-.inputs{
-    width:1000px;
+.inputs {
+    width: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap:50px;
+    gap: 50px;
     /* background-color: gray; */
 }
-.inputs div{
+.inputs div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /* background-color: red; */
-    gap:20px;
+    gap: 20px;
     font-size: 1.6rem;
 }
-.inputs input{
+.inputs input {
     font-size: 40px;
-    width:60%;
+    width: 60%;
     text-align: center;
-    padding:10px;
+    padding: 10px;
     border-radius: 10px;
-    border:1px solid #000000
+    border: 1px solid #000000;
+}
+
+/* This is the external CSS file to style the HTML elements */
+
+/* Apply styling to the body element */
+body {
+    font-family: Arial, sans-serif; /* Default font for the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center the content */
+    margin: 0; /* Remove default margin */
+}
+
+/* Styling for the 'name' class applied to the <h1> element */
+.name {
+    font-family: "Courier New", Courier, monospace; /* Change the font of the name */
+    font-size: 60px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #ff5733; /* Text color - reddish-orange */
 }
